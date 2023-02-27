@@ -18,7 +18,7 @@ const Chat = () => {
 
 
     useEffect(() => {
-        socketRef.current = io("https://lets-chat-rt5f.onrender.com")
+        socketRef.current = io("https://test-8jko.onrender.com")
         dispatch(setSocketRef(socketRef.current))
 
         return () => {
